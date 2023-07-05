@@ -18,7 +18,6 @@ let person3 = {
     }]
 }
 
-// the version that works, but not as nicely as I was going for
 function exercise1(person){
     for(let i = 0; i < Object.keys(person).length; i++){
         if(Array.isArray(Object.values(person)[i])){
